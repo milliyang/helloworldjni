@@ -14,7 +14,8 @@ public class Helloworld {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		System.loadLibrary("helloworld");
+
 		System.out.printf("this is java's printf function");
 		System.out.printf("this is jni's printf function:%s", new Helloworld().getPrint());
 		
